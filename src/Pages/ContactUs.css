@@ -1,0 +1,111 @@
+/* ContactUs.css */
+/* Add your Navbar and Footer styling here (if needed) */
+
+.contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 0 20px;
+    width: 100%;
+  }
+  
+  .contact-info {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    max-width: 45%;
+    margin-right: 20px;
+  }
+  
+  .contact-info h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 20px;
+    color: #777;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    max-width: 45%;
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .contact-page {
+      flex-direction: column;
+      padding: 0 10px;
+    }
+    
+    .contact-info,
+    .contact-form {
+      width: 100%;
+      max-width: none;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  

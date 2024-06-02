@@ -1,0 +1,108 @@
+/* About.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Aboutpage {
+  padding: 20px;
+  background-color: rgb(7, 1, 27);
+}
+
+.teampics {
+  margin-bottom: 30px;
+}
+
+.teampics ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.teampics li {
+  /* Updated max-width calculation */
+
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.teampics .member-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.teampics .member-container:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.teampics .member-container:hover div h6 {
+  background-color: #ccc;
+  color: black;
+}
+.teampics .member-container:hover div p {
+  background-color: #ccc;
+  color: black;
+}
+.teampics img {
+  width: 9rem;
+  height: 9rem;
+  object-fit: cover;
+  border-radius: 40%;
+  border: 0.1rem solid rgb(0, 0, 0);
+}
+
+.member-info {
+  margin-top: 10px;
+}
+
+.member-info h6 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.member-info p {
+  color: #ccc;
+  font-size: 0.8rem;
+}
+
+.Aboutustext h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+}
+
+/*About us section*/
+
+.custom-intro-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  
+}
+
+.custom-intro-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.custom-intro-text {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: white;
+  text-align: justify;
+}
